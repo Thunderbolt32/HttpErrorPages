@@ -24,6 +24,42 @@ return array (
                 'message' => 'The requested resource could not be found but may be available again in the future.' 
         ),
         
+         // http 405 not found
+        '405' => array (
+                'title' => 'Method not allowed',
+                'message' => 'The server cannot process the request due to an illegal request method.' 
+        ),
+
+        // http 406 not found
+        '406' => array (
+                'title' => 'Not Acceptable',
+                'message' => 'The requested type of the resource is not available.' 
+        ),
+
+        // http 404 not found
+        '407' => array (
+                'title' => 'Proxy Authentication Required',
+                'message' => 'The requested resource requires an authentication.' 
+        ),
+
+        // http 404 not found
+        '412' => array (
+                'title' => 'Precondition Failed',
+                'message' => 'A prerequisite for processing the request could not be fulfilled.' 
+        ),
+
+        // http 404 not found
+        '414' => array (
+                'title' => 'Request-URL Too Long',
+                'message' => 'The request address is too long to be processed.' 
+        ),
+
+        // http 404 not found
+        '415' => array (
+                'title' => 'Unsupported Media Type',
+                'message' => 'The request was not made in a supported format.' 
+        ),
+        
         // internal server error
         '500' => array (
                 'title' => 'Webservice currently unavailable',
